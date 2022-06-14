@@ -8,6 +8,8 @@ import { SidebarComponent } from '../modules/sidebar/sidebar.component';
 import { DashboardComponent } from '../modules/dashboard/dashboard.component';
 import { AccessButtComponent } from '../modules/access-butt/access-butt.component';
 
+import { ReclamationComponent } from '../modules/reclamation/reclamation.component';
+
 
 
 @NgModule({
@@ -17,6 +19,8 @@ import { AccessButtComponent } from '../modules/access-butt/access-butt.componen
     SidebarComponent,
     DashboardComponent,
     AccessButtComponent,
+
+    ReclamationComponent,
 
 
   ],

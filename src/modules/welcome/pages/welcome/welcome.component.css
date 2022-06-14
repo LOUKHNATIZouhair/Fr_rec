@@ -1,0 +1,89 @@
+
+.section__welcome{
+    margin-top: 30px;
+}
+
+.step__label {
+    position: relative;
+    font-size: 15px;
+    padding: 8px 12px;
+    border-radius: 3px;
+    letter-spacing: .2px;
+    line-height: 60px;
+    color: var(--primary-color-green);
+    background-color: var(--primary-color-green-light);
+}
+
+.step__title {
+    position: relative;
+}
+.step__title:after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0px;
+    width: 20px;
+    border-radius: 15px;
+    height: 2px;
+    background-color: var(--primary-color-green);
+}
+.step__text {
+    font-size:15px;
+    font-weight: 100;
+}
+
+.image-logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.card__choice {
+    display : block;
+    height: 300px;
+    width: 250px;
+    border:20px;
+    text-align: center;
+}
+.card__choice > input{ /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+}
+.card__choice > input + div{ /* DIV STYLES */
+    cursor:pointer;
+    border:2px solid transparent;
+    padding: 20px;
+
+}
+.card__choice > input:checked + div{ /* (RADIO CHECKED) DIV STYLES */
+    background-color: #dcf5e56b;
+    border: 2px solid #23c25e;
+    padding: 20px;
+}
+.card__choice{
+    position: relative;
+}
+.card__choice > input:checked + div:after{ /* (RADIO CHECKED) DIV STYLES */
+    content:"";
+    height: 20px;
+    width: 20px;
+    background-image: url('/assets/icons/checkmark.svg');
+
+    position: absolute;
+}
+
+.card__choice-title{
+    font-weight: 500;
+    font-size: 25px;
+}
+.card__individual-icon {
+    width: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card__company-icon {
+    width: 80px;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+

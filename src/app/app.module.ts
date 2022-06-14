@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import {NavbarComponent} from "../modules/navbar/navbar.component";
 import { SidebarComponent } from '../modules/sidebar/sidebar.component';
 import { DashboardComponent } from '../modules/dashboard/dashboard.component';
+import { AccessButtComponent } from '../modules/access-butt/access-butt.component';
+
 
 
 @NgModule({
@@ -14,6 +16,8 @@ import { DashboardComponent } from '../modules/dashboard/dashboard.component';
     NavbarComponent,
     SidebarComponent,
     DashboardComponent,
+    AccessButtComponent,
+
 
   ],
   imports: [
